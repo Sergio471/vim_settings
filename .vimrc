@@ -1,3 +1,10 @@
+" DESCRIPTION:
+" Here is my vimrc I feel comfortable with. I use YouCompleteMe 
+" and Vundle plugins. Hope, you will find it useful.
+
+
+
+
 "Vundle start
 
 set nocompatible              " be iMproved, required
@@ -81,7 +88,7 @@ set noexpandtab
 :nnoremap <Tab> :tabn<CR>
 :nnoremap <S-Tab> :tabp<CR>
 
-set path=/home/s.krestianskov/builddeps/include,/usr/include,/home/skrestianskov/Documents/repos/git_repos/cpp/**
+set path=/usr/include
 
 :set number
 
