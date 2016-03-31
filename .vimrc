@@ -81,7 +81,8 @@ set noexpandtab
 :nnoremap <Tab> :tabn<CR>
 :nnoremap <S-Tab> :tabp<CR>
 
-set path=/home/s.krestianskov/builddeps/include,/usr/include,/home/skrestianskov/Documents/repos/git_repos/cpp/**
+" Here, specify include directories
+set path=/usr/include
 
 :set number
 
