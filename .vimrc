@@ -1,10 +1,3 @@
-" DESCRIPTION:
-" Here is my vimrc I feel comfortable with. I use YouCompleteMe 
-" and Vundle plugins. Hope, you will find it useful.
-
-
-
-
 "Vundle start
 
 set nocompatible              " be iMproved, required
@@ -88,9 +81,19 @@ set noexpandtab
 :nnoremap <Tab> :tabn<CR>
 :nnoremap <S-Tab> :tabp<CR>
 
-set path=/usr/include
+set path=/home/s.krestianskov/builddeps/include,/usr/include,/home/skrestianskov/Documents/repos/git_repos/cpp/**
 
 :set number
 
 "directory to save swap files (not to add garbage to workdir)
 :set directory=~/.vim/swapfiles/
+
+filetype plugin indent on
+" Show existing tab with 4 spaces width
+set tabstop=4
+" When indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
+
+set tags=~/Documents/repos/git_repos/cpp/ctags_tag
