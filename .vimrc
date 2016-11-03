@@ -2,7 +2,6 @@
 " Here is my vimrc I feel comfortable with.
 " Hope you'll find it useful too.
 
-execute pathogen#infect()
 syntax on
 set syntax=c++
 filetype plugin indent on
